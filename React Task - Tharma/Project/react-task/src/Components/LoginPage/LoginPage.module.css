@@ -1,0 +1,42 @@
+h1 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 100px;
+  color: white;
+  font-weight: 500;
+}
+.input {
+  width: 20%;
+  height: 40px;
+  border-radius: 3px;
+  border: none;
+  margin-top: 0.5%;
+  padding-left: 10px;
+  margin-bottom: 0;
+}
+.error {
+  color: rgb(255, 255, 255);
+  margin: auto;
+  width: 20%;
+}
+.checkbox {
+  margin: 10px 0px 10px -180px;
+}
+.checkbox label {
+  color: white;
+}
+.button {
+  background-color: rgb(18, 103, 178);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  width: 21%;
+  height: 45px;
+  cursor: pointer;
+}
+.mainDiv {
+  background-color: rgb(4, 154, 209);
+  height: 640px;
+}

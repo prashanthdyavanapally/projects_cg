@@ -1,0 +1,153 @@
+.leftHeaders {
+  width: 22%;
+  margin-left: 6%;
+  margin-top: 2%;
+  border: 2px solid rgb(191, 191, 191);
+  text-align: left;
+  border-radius: 3px;
+  float: left;
+}
+.userAccounts {
+  background-color: rgb(4, 154, 209);
+  color: white;
+  height: 28px;
+  border-radius: 3px;
+}
+.leftHeaders div {
+  padding: 4px 0px 5px 30px;
+  cursor: pointer;
+}
+.newEdit{
+    display: flex;
+    justify-content:space-between;
+}
+.newEdit button{
+    padding:8px 16px;
+    margin-right: 2px;
+}
+.rightDiv {
+  /* border: 2px solid red; */
+  float: right;
+  width: 60%;
+  margin-right: 8%;
+  margin-top: 4%;
+}
+.rightTopDiv span {
+  color: rgb(138, 138, 138);
+}
+.rightDiv h1,
+.rightDiv p {
+  color: rgb(4, 154, 209);
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px 0px;
+  float: left;
+  font-weight: 450;
+}
+.rightDiv p{
+    margin-bottom: 3%;
+    background-color:rgb(230, 230, 230);
+    text-align: left;
+    width: 99%;
+    padding-left: 1%;
+}
+.rightDiv hr {
+  clear: left;
+}
+.pageTitle1 {
+  clear: left;
+}
+.pageTitle1,
+.pageTitle {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 2%;
+}
+.pageTitle1 div {
+  font-weight: 500;
+}
+.pageTitle div,
+.pageTitle1 div {
+  font-size: 1rem;
+  color: rgb(81, 81, 81);
+  width: 28%;
+  text-align: left;
+}
+.pageTitle .blueHeader {
+  color: rgb(4, 154, 209);
+}
+.viewPagesBtn {
+  background-color: rgb(224, 224, 224);
+  border: none;
+  padding: 10px;
+  float: left;
+  margin-top: 2%;
+  color: rgb(81, 81, 81);
+}
+.rightTopDiv {
+  clear: right;
+  margin-bottom: 10%;
+}
+.rightBottomDiv {
+  clear: both;
+  margin-bottom: 10%;
+}
+.footer {
+  background-color: rgb(4, 154, 209);
+  clear: both;
+  padding: 1.5px 0px;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(4, 154, 209);
+  padding: 1%;
+}
+.navBarList {
+  width: 55%;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: space-around;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.navBarSearch {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 1%;
+}
+.navBarSearch div {
+  color: white;
+}
+.navBarList div {
+  cursor: pointer;
+}
+.navBarList input {
+  background-color: white;
+  height: 25px;
+  width: 25%;
+  border-radius: 4px;
+  border: 1px solid rgb(195, 194, 194);
+  padding-left: 1%;
+}
+.navBarList button {
+  background-color: white;
+  border-radius: 3px;
+  border: none;
+}
+.myAccount {
+  margin-right: 3%;
+}
+.usersRoute{
+  background-color:rgb(0, 72, 160);
+  padding: 0px 15px;
+  padding-top: 2px;
+}

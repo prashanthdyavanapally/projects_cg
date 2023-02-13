@@ -1,0 +1,73 @@
+.popupBackground {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(200, 200, 200);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.closeX {
+  display: flex;
+  justify-content: flex-end;
+  color: red;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.popupContainer {
+  width: 300px;
+  height: 400px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.popupContainer .title {
+  display: inline-block;
+  text-align: center;
+  color: rgb(91, 91, 91);
+}
+.popupContainer .body {
+  flex: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+}
+.popupContainer label {
+  font-weight: 500;
+  color: rgb(81, 81, 81);
+  margin-bottom: 5px;
+}
+.popupContainer input {
+  margin-bottom: 5%;
+  height: 30px;
+  border-radius: 3px;
+  padding-left: 10px;
+  font-size: 1rem;
+  color: rgb(91, 91, 91);
+}
+.popupContainer .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popupContainer .footer button {
+  width: 100px;
+  height: 40px;
+  margin: 15px;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.cancelBtn {
+  background-color: red;
+}
+.saveBtn {
+  background-color: rgb(4, 154, 209);
+}
